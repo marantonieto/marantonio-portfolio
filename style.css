@@ -1,0 +1,45 @@
+.first-section{
+    background: linear-gradient(300deg, #001C30, #176B87, #64CCC5);
+    background-size: 360% 360%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.display-5{
+font-family: 'Lora', serif;
+color: azure !important;
+font-size: 110px !important;
+padding: 30px;
+}
+
+.lead{
+    padding: 30px;
+    color: azure;
+}
+
+.btn-primary{
+    background-color: #176B87 !important;
+}
+
+.text-body-emphasis{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.border-bottom{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
